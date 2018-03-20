@@ -1,0 +1,438 @@
+      .mySlides {display:none;
+          width: 120%;
+      }
+      
+      .content{max-width:1000px;margin:auto}
+      .section.code{margin-top:16px!important;margin-bottom:16px!important}
+      
+      .textDarkBlue {color:#000!important;background-color:#4794ce!important;}
+      
+      
+      .nav1 {
+          position:fixed;
+      }
+      
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          width:100%;
+          position:fixed;
+          z-index:20;
+          opacity: .85;
+      }
+      
+      li {
+          float: left;
+      }
+      
+      li a {
+          display: block;
+          color: lightgrey;
+          text-align: center;
+          padding-bottom: 0px;
+          padding: 0px 20px;
+          text-decoration: none;
+          font-size: 25px;
+      }
+      
+      li a:hover {
+          opacity: 0.7;
+      }
+      
+      .t {
+          padding:0px;
+          left:0px;
+          right:0px;
+      }
+      
+      div.map {
+          left: 33%;
+	        top: 40%;
+      }
+      
+      .ul {
+          float: right;
+      }
+      
+      div.mainPicture {
+          padding-top: 125px;
+          padding-right: 200px;
+          padding-bottom: 60px;
+          padding-left: 0px;
+          margin: auto;
+          
+          background: #6a7d90;
+          background: -webkit-linear-gradient(#6a7d90,#5c7d9d);
+          background: -o-linear-gradient(#6a7d90,#5c7d9d);
+          background: -moz-linear-gradient(#6a7d90,#5c7d9d);
+          background: linear-gradient(#6a7d90,#5c7d9d);
+      }
+      div.logo {
+          background-color: #afc7de;
+          padding-top: 0px;
+          padding-right: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          margin: auto;
+      }
+      div.textOne {
+          background: lightgray;
+          background: -webkit-linear-gradient(lightgray, lightgray);
+          background: -o-linear-gradient(lightgray, lightgray);
+          background: -moz-linear-gradient(lightgray, lightgray);
+          background: linear-gradient(lightgray, lightgray);
+          
+          padding-top: 20px;
+          padding-right: 0px;
+          padding-bottom: 20px;
+          padding-left: 0px;
+          color:#4794ce;
+          text-align:center;
+          font-family: "Khand";
+      }
+      
+      div.textTwo {
+          padding-top: 60px;
+          padding-right: 0px;
+          padding-bottom: 0px;
+          padding-left: 10px;
+          text-align:center;
+          font-size: 60px;
+          font-famconily:"Khand";
+          color: white;
+          
+          background: #6a7d90;
+          background: -webkit-linear-gradient(#6a7d90,#5f7b95);
+          background: -o-linear-gradient(#6a7d90,#5f7b95);
+          background: -moz-linear-gradient(#6a7d90,#5f7b95);
+          background: linear-gradient(#6a7d90,#5f7b95);
+      }
+      
+      div.textThree {
+          background: #5f7b95;
+          background: -webkit-linear-gradient(#5f7b95,#5c7d9d);
+          background: -o-linear-gradient(#5f7b95,#5c7d9d);
+          background: -moz-linear-gradient(#5f7b95,#5c7d9d);
+          background: linear-gradient(#5f7b95,#5c7d9d);
+          padding-top: 15px;
+          padding-right: 0px;
+          padding-bottom: 30px;
+          padding-left: 10px;
+          text-align:center;
+          font-family: "Khand";
+          font-size: 20px;
+          color: white;
+      }
+      div.textFour {
+          background-color:#d3d3d3;
+          padding-top: 100px;
+          padding-right: 0px;
+          padding-bottom: 100px;
+          padding-left: 10px;
+          text-align:center;
+          font-size: 60px;
+          color:#4794ce;
+          font-family: "Khand";
+          font-weight:bold;
+      }
+      
+      div.about {
+          padding-top: 0px;
+          padding-right: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          color:#4794ce;
+          text-align:center;
+          margin: auto;
+          font-family: "Khand";
+          
+      }
+      
+      .buy {
+        color: white;
+        font-size: 32px;
+        padding: 20px;
+      }
+      
+      
+      div.products {
+          background-color: darkgrey;
+          padding-top: 0px;
+          padding-right: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          color:lightgrey;
+          font-size: 20px;
+          font-family: "Khand";
+      }
+      
+      div.Neos_Jacket {
+          background-color:#d3d3d3;
+          position: relative;
+          text-align: center;
+          color: white;
+          width: 100%;
+      }
+      .Nj_text {
+          position: absolute;
+          top: 35%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size:20px;
+          color:#4794ce;
+      }
+      
+      .centered {
+          position: absolute;
+          top: 50px;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size:50px;
+          color:#4794ce;
+      }
+      
+      div.map {
+          position: absolute; top: 0px;right:50%;
+        
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      div.productOne {
+        
+        
+      }
+      div.productTwo {
+          
+        
+      }
+      
+      div.Kyvos_Necklace {
+          background-color:#d3d3d3;
+          position: relative;
+          text-align: center;
+          color: white;
+          width: 100%;
+          height: 100%;
+          margin-right: 0px;
+      }
+      
+      div.Kn_text {
+          position: absolute;
+          top: 35%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size:20px;
+          color:#4794ce;
+      }
+      
+      div.centered2 {
+          position: absolute;
+          top: 50px;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size:50px;
+          color:#4794ce;
+      }
+      
+      div.container {
+        height: 100%;
+        width: 100%;
+      }
+      
+
+      
+      div.Kb_text {
+          position: absolute;
+          top: 35%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size:20px;
+          color:#4794ce;
+      }
+      
+      div.centered3 {
+          position: absolute;
+          top: 50px;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size:50px;
+          color:#4794ce;
+      }
+      
+      div.aplos_logo {
+          background-color:lightgrey;
+          text-align: center;
+          padding:60px;
+      }
+      
+      .btn-group button {
+          background-color: #4CAF50; /* Green background */
+          border: 1px solid green; /* Green border */
+          color: white;
+          padding: 10px 24px;
+          cursor: pointer;
+          float: left;
+      }
+      
+      .btn-group:after {
+          content: "";
+          clear: both;
+          display: table;
+          position:fixed;
+      }
+      
+      .btn-group button:not(:last-child) {
+          border-right: none;
+      }
+      
+      .btn-group button:hover {
+          background-color: #3e8e41;
+      }
+      
+      .social_b {
+          bottom:0;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          width: 100%;
+          color: #d3d3d3;
+          position: static;
+      }
+      
+      .fa {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          font-size: 35px;
+          width: 70px;
+          text-align: center;
+          text-decoration: none;
+          
+      }
+      
+      .fa-facebook:hover {
+          background-color:#3d5b99;
+      }
+      .fa-twitter:hover {
+          background-color:#00aced;
+      }
+      .fa-instagram:hover {
+          background-color:#d82a81;
+      }
+      .fa-youtube:hover {
+          background-color:#e64a41;
+      }
+      .fa-youtube:hover {
+          background-color:#e64a41;
+      }
+      
+      .blankspace {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 525px;
+          font-size: 35px;
+          width: 70px;
+          text-align: center;
+          color: #333333;
+          text-decoration: none;
+      }
+      
+      .blankspace:hover {
+          opacity: 0;
+      }
+      
+      div.contact{
+          padding-top: 20px;
+          font-size: 60px;
+          font-family:"Khand";
+          color: white;
+          
+          background: #6a7d90;
+          background: -webkit-linear-gradient(#6a7d90,#5f7b95);
+          background: -o-linear-gradient(#6a7d90,#5f7b95);
+          background: -moz-linear-gradient(#6a7d90,#5f7b95);
+          background: linear-gradient(#6a7d90,#5f7b95);
+      }
+      
+      .contact_title {
+          text-align: center;
+      }
+      
+      .map {
+          text-align: right;
+      }
+      
+      .atf {
+          margin: 0px;
+          text-align: left;
+      }
+      
+      #share-buttons img {
+          width: 35px;
+          padding: 5px;
+          border: 0;
+          box-shadow: 0;
+          display: block;
+      }
+      
+      
+      #fixedbar {
+        display: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        background: rgba(0,0,0,0.75);
+      }
+       
+      #fixednav {
+        display: block;
+        width: 710px;
+        margin: 0 auto;
+        padding: 0px 25px;
+      }
+       
+      #fixednav li a {
+        display: block;
+        float: left;
+        font-size: 1.75em;
+        font-weight: bold;
+        color: #96aed8;
+        line-height: 80px;
+        text-decoration: none;
+        padding: 0px 8px;
+        margin-right: 6px;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+      }
+      #fixednav li a:hover {
+        color: #fff;
+        background: rgba(0,0,0,0.3);
+      }
+      
+      p.ex1 {
+          padding:0px 230px;
+      }
+      
+      p.ex2 {
+          padding:0px 0px;
+      }

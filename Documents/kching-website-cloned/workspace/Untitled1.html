@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="Untitled1.css">
+    <link rel='stylesheet'href='https://fonts.googleapis.com/css?family=Khand'>
+    <head>
+        <title> </title>
+        
+    </head>
+    <body onload="startTime()">
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+
+    m = checkTime(m);
+
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + " PM";
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+
+
+</script>
+
+
+
+<img class= "logo" src="https://88a41bc6-a-c73ae1b4-s-sites.googlegroups.com/a/mypisd.net/aplos-images/home/aplos%20finalmente.png?attachauth=ANoY7cowqz3RMiG7R_JMbfcmTos8e28MwLxrgI5hmxt64GHnITniQpOZ8wUhuq_U6nfwaU98AQlKD-YhyCMmu9FIoq3FjLL7X-B3FfBmVlDzYcAfNWezhXYtykhKc7iC0YFvU7MCvjN53rxpZset8PIPTMJ5b3UgdPEIIUALCFAJmkDvWtviWrufEK6HDml8QF5gx-RyuW0gFdoYHej1XX8klfRxZ1ZKuez7VnVS6tFIuJ3dNOSy_Tc%3D&attredirects=0" padding="200px" width="200" height="auto"> </div>
+<div class = "date">December 12, 2017</div>
+<div id="txt" class="time"></div>
+
+<button onclick="myFunction()">Copy Text</button>
+
+<script>
+function myFunction() {
+    document.getElementById("field2").value = document.getElementById("field1").value;
+}
+</script>
+
+<p class="pee"id="peep">67</p>
+
+<button onclick="myFunction('Harry Potter')">Click to buy</button>
+<button onclick="myFunction('Bob')">Click for Bob</button>
+
+<script>
+
+
+var x=67
+var y=1
+var z
+
+function myFunction(name)
+
+
+{
+document.getElementById(Number("peep")).innerHTML = Number("peep") - y;
+}
+</script>
+
+<button id="clickme">Click me: 67</button>
+
+<script>
+    var button = document.getElementById('clickme'),
+  count = 67;
+button.onclick = function() {
+  count += -1;
+  button.innerHTML = "Clic" + count;
+};
+</script>
+
+
+
+<script type="text/javascript">
+    var clicks = 67;
+    function onClick() {
+        clicks += -1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick()">Click me</button>
+    <p>Clicks: <a id="clicks">67</a></p>
+
+    </body>
+    
+    

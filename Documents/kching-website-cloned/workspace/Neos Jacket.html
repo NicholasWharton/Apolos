@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <title>Neos Jacket</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="Neos Jacket.css">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="icon" href="https://sites.google.com/a/mypisd.net/aplos-images/home/aplos%20fina.png">
+    <link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Capriola">
+    <link rel='stylesheet'href='https://fonts.googleapis.com/css?family=Khand'>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body {
+            font-family: "Khand";font-size:20px;
+            
+        }
+        .mySlides {display: none}
+    </style>
+    <body>
+
+
+    <nav id="navigation">
+      <ul>
+        <li><a class="lo" href="https://kching-website-cloned-nickggrae.c9users.io/main.html#"><img src="https://sites.google.com/a/mypisd.net/nw-portfolio/home/aplos%20dina.png" alt="Logo Image" width="80" height="80"></a></li>
+        <li><a href="https://kching-website-cloned-nickggrae.c9users.io/main.html#about"> <p>About</p> </a></li>
+        <li><a href="https://kching-website-cloned-nickggrae.c9users.io/main.html#container"> <p>Products</p> </a></li>
+        <li><a href="https://kching-website-cloned-nickggrae.c9users.io/main.html#contact"> <p>Contact</p> </a></li>
+      </ul>
+    </nav>
+    <body>
+        <div class="title">Neos Jacket</div>
+        <div class="description">The Neos Jackets are comfortable wearable technology. It has a 2.8 inch screen on the left forearm which displays the time, date, and heartrate. The fabric is a blend between spandex and polyester to wick moisture off of the skin.</div>
+        <div class=mainPicture id="home">
+        <center>
+        <div class="content section">
+            <img class="mySlides" src="https://sites.google.com/a/mypisd.net/aplos-images/home/Untitled.png" height=80% width=>
+            <img class="mySlides" src="https://sites.google.com/a/mypisd.net/aplos-images/home/Untitled%20bb.png" height=80%>
+        </div>
+        </center>
+    </div>
+<script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+
+</script>  
+
+    <div class="infooo">Price: $145.00</div>
+    <div class="infooo"><p class="p">In Stock: <a id="clicks">45</a></p></div>
+    <button type="button" class="buyss" onClick="onClick()">Purchase</button>
+    <script type="text/javascript">
+        var clicks = 45
+        function onClick() {
+            clicks += -1;
+            document.getElementById("clicks").innerHTML = clicks;
+        };
+    </script>
+    
+    
+    <div class="sm_bottom">
+        <ul class="social_b">
+            <li><a class="blankspace">.....</a></li>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="https://twitter.com/aplosinc" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-youtube"></a></li>
+        </ul>
+    </div>
+    </body>
+</html>
